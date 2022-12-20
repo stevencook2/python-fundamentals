@@ -14,12 +14,13 @@ elif x > y:
 else:
     print(f'the variables x and y are equal to one another')
 
-# what if we try to use a comparison operator with an integer and a string?
+# what if we try to use a comparison operator with an integer and a string? It won't work. You cant compare the 2.
 # if x == z:
 #     print(f'x and z are equivalent')
 
-# will this work? why or why not?
-# how does python handle type conversion?
+# will this work? why or why not? You can't compare strings and integers.
+# how does python handle type conversion? explicitly
+
 if x == int(j):
     print(f'x and j are equivalent')
 else:
@@ -28,3 +29,4 @@ else:
 print(type(j))
 
 # how can we make the above statement work?
+
